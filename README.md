@@ -1,6 +1,6 @@
  # Here is some UI and work shown in this repository
 #
-[Live Preview Project]()
+[Live Preview Project](https://665d9d9f7c1671a463c02bf1--playful-bublanina-488f23.netlify.app/)
 #
 ## Project Details
 #
