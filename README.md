@@ -34,12 +34,13 @@ Appointment details can be seen on the admin dashboard and the admin can update 
 22. MongoDB
 23. MongoDB Atlas
 24. Firebase Verify Token
-25. Font Awesome
-26. Google Fonts
-27. HTML5
-28. CSS3
-29. Bootstrap5
-30. Material UI
+25. JWT Token
+26. Font Awesome
+27. Google Fonts
+28. HTML5
+29. CSS3
+30. Bootstrap5
+31. Material UI
 
 #
 ### `Project Deploy`
