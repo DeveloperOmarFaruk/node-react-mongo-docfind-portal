@@ -1,0 +1,421 @@
+.banner-container-div {
+  position: relative;
+}
+
+.banner-container-div:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* width: 20em;
+  height: 20em; */
+  background: rgb(5, 77, 86, 0.6);
+}
+
+.banner-image {
+  height: 100vh;
+  width: 100vw;
+}
+
+.banner-text p {
+  font-size: 1.5rem;
+  margin-top: 4rem;
+}
+
+.banner-text h1 {
+  font-size: 4.5rem;
+  margin-bottom: 3rem;
+}
+
+.banner-container {
+  position: relative;
+}
+
+.banner-bottom-card {
+  position: absolute;
+  bottom: -8%;
+  width: 100%;
+}
+
+.banner-botom-card-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  justify-items: center;
+  padding: 3rem 2rem;
+  color: white;
+}
+
+.banner-botom-card-info i {
+  font-size: 2.4rem;
+  margin-right: 1rem;
+}
+
+.banner-botom-card-info h6 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 1.3rem;
+}
+
+.banner-botom-card-info p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 13px;
+}
+
+.banner-botom-card-div-1 {
+  background-color: #054d56;
+  border-radius: 8px;
+}
+
+.banner-botom-card-div-2 {
+  background-color: #1c2833;
+  border-radius: 8px;
+}
+
+/* Home Our Service Design Area */
+.our-service-container,
+.about-us-container,
+.review-container,
+.our-team-container {
+  padding: 8rem 0rem 8rem 0rem;
+}
+
+.our-service-card {
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: 1px dotted #054d56;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.our-service-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.our-service-card img {
+  width: 150px;
+  height: 150px;
+  margin: 2rem auto;
+  border-radius: 50%;
+  padding: 10px;
+  border: 2px dotted #054d56;
+}
+
+.our-service-card h4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.our-service-card p {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* About Us Design Area */
+
+.about-col-div img,
+.why-choose-left-info-img-div img {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.about-col-div p {
+  margin: 2rem auto;
+}
+
+.about-col-div button {
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #054d56;
+  padding: 0.8rem 2rem;
+}
+
+.about-col-div button:hover {
+  background-color: #2296a5;
+}
+
+/* Why Choose Design Area */
+.why-choose-container {
+  padding: 8rem 0rem 8rem 0rem;
+  background: linear-gradient(
+      90deg,
+      rgb(5, 77, 86, 0.8) 0%,
+      rgb(5, 77, 86, 0.8) 50%,
+      rgb(5, 77, 86, 0.8) 100%
+    ),
+    url("https://static.vecteezy.com/system/resources/previews/035/811/510/large_2x/ai-generated-contemporary-dental-clinic-interior-with-light-blue-and-white-tones-clean-and-bright-background-photo.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.why-choose-left-info {
+  color: white;
+}
+
+.why-choose-left-info h1 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+.why-choose-left-info p {
+  margin-bottom: 40px;
+  font-weight: 200;
+}
+
+.why-choose-left-info-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  justify-items: flex-start;
+}
+
+.why-choose-left-info-div i {
+  font-size: 2rem;
+  margin-right: 20px;
+}
+
+/* Achivment Deasign Area */
+.achivement-container {
+  padding: 8rem 0rem 8rem 0rem;
+  background: linear-gradient(
+      90deg,
+      rgb(5, 77, 86, 0.8) 0%,
+      rgb(5, 77, 86, 0.8) 50%,
+      rgb(5, 77, 86, 0.8) 100%
+    ),
+    url("https://www.infectioncontrolresults.com/wp-content/uploads/2020/02/dental-tools-scaled-e1582737923492.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.achivement-div {
+  text-align: center;
+  color: white;
+}
+
+.achivement-div h1 {
+  font-size: 2.5rem;
+}
+
+/* Review Container Desagin Area */
+.review-section-div,
+.our-team-section-div {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.review-section-div:hover,
+.our-team-section-div:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.review-section-div p:nth-child(1) {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 20px 0px 0px 0px;
+}
+.review-section-div-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  justify-items: center;
+  margin: 40px auto;
+}
+
+.review-section-div-info img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 2px dotted #054d56;
+}
+
+.review-section-div-info h5,
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.review-section-div-info h5 {
+  color: #054d56;
+}
+
+/* Appoinment Design Area */
+.appoinment-home-container {
+  padding: 0rem 0rem 0rem 0rem;
+  background: linear-gradient(
+      90deg,
+      rgb(5, 77, 86, 0.8) 0%,
+      rgb(5, 77, 86, 0.8) 50%,
+      rgb(5, 77, 86, 0.8) 100%
+    ),
+    url("https://www.wcdentalarts.com/wp-content/uploads/2016/10/5-tips-for-fitting-a-dentist-appointment-into-a-busy-schedule-Feature-Image.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.apoinment-div {
+  color: white;
+  text-align: start;
+}
+.apoinment-div img {
+  width: 100%;
+  height: auto;
+  margin-top: -120px;
+}
+
+.apoinment-div button {
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #2296a5;
+  padding: 0.8rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.apoinment-div button:hover {
+  background-color: #054d56;
+}
+
+/* Our Team Deasign Area */
+
+.our-team-section-div img {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.our-team-section-div-info h5,
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.our-team-section-div-info h5 {
+  color: #054d56;
+}
+
+/* Contact Us Design Area */
+
+.contact-us-container {
+  padding: 8rem 0rem 6rem 0rem;
+  background: linear-gradient(
+      90deg,
+      rgb(5, 77, 86, 0.8) 0%,
+      rgb(5, 77, 86, 0.8) 50%,
+      rgb(5, 77, 86, 0.8) 100%
+    ),
+    url("https://dentistry.co.uk/app/uploads/2023/03/bupa.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contact-us-form button {
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #2296a5;
+  padding: 0.8rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-us-form button:hover {
+  background-color: #054d56;
+}
+
+/* ============================ */
+/* Respinsive Design Area */
+/* ============================= */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .banner-text p {
+    font-size: 1rem;
+  }
+
+  .banner-text h1 {
+    font-size: 2rem;
+  }
+  .banner-bottom-card {
+    position: relative;
+    bottom: none;
+    margin: 2rem auto;
+  }
+
+  .our-service-container {
+    padding: 5rem 0rem;
+  }
+
+  .apoinment-div img {
+    margin-top: 0px;
+  }
+
+  .appoinment-home-container {
+    padding: 4rem 0rem 0rem 0rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .banner-bottom-card {
+    position: relative;
+    bottom: none;
+    margin: 2rem auto;
+  }
+
+  .appoinment-home-container {
+    padding: 4rem 0rem 0rem 0rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .banner-botom-card-info i {
+    font-size: 1.4rem;
+    margin-right: 0.5rem;
+  }
+
+  .banner-bottom-card {
+    bottom: -18%;
+  }
+
+  .apoinment-div img {
+    margin-bottom: -248px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1300px) {
+  .apoinment-div img {
+    margin-bottom: -110px;
+  }
+}

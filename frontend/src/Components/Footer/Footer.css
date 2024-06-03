@@ -1,0 +1,62 @@
+.fooer-container {
+  padding: 8rem 0rem 1rem 0rem;
+}
+.footer-div p {
+  margin: 20px auto;
+}
+.footer-div-icon i {
+  color: #054d56;
+  font-size: 1rem;
+  margin-top: 1px;
+  margin-right: 20px;
+  padding: 13px 15px;
+  border-radius: 50%;
+}
+.footer-div-icon i:hover {
+  background-color: rgb(33, 102, 102);
+  color: white;
+}
+
+.footer-div-link h4 {
+  color: #054d56;
+}
+
+.footer-div-link p {
+  margin: 10px auto;
+}
+
+.footer-div-link p a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.footer-div-link p a:hover {
+  color: #054d56;
+}
+
+.footer-div-link button {
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #2296a5;
+  padding: 0.8rem 2rem;
+}
+.footer-div-link button:hover {
+  background-color: #054d56;
+}
+
+.footer-div-copyright p {
+  color: #2c3e50;
+}
+
+.footer-div-copyright p a {
+  text-decoration: none;
+  color: #2c3e50;
+  margin: 0px 10px;
+}
+
+.footer-div-copyright p a:hover {
+  color: #054d56;
+}

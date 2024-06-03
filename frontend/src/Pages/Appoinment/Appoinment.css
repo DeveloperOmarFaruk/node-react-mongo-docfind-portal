@@ -1,0 +1,56 @@
+.appoinment-container {
+  padding: 12rem 0rem 6rem 0rem;
+}
+
+.appoinment-div {
+}
+
+.appoinment-div img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.appoinment-div h1 {
+  color: #054d56;
+}
+
+.booking-appoinment-div {
+  border: 1px dotted #054d56;
+  border-radius: 10px;
+  padding: 40px 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.booking-appoinment-div:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.booking-appoinment-div {
+  text-align: center;
+}
+
+.booking-appoinment-div button,
+.booking-send {
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #2296a5;
+  padding: 0.5rem 1.5rem;
+  margin: 1.2rem auto 0rem auto;
+}
+.booking-appoinment-div button:hover,
+.booking-send:hover {
+  background-color: #054d56;
+}
+
+.booking-send {
+  margin: 0rem;
+  padding: 0.5rem 2rem;
+}
+
+.modal-input input,
+.modal-input select {
+  border: 1px solid #054d56;
+}

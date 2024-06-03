@@ -1,0 +1,6 @@
+# dependencies
+/node_modules
+
+# misc
+.env
+docfind-67618-firebase-adminsdk.json

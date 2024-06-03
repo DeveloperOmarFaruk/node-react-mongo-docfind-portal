@@ -1,0 +1,269 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 60px;
+  background: #054d56;
+  padding: 2px 6px;
+  transition: all 0.5s ease;
+}
+.sidebar.active {
+  width: 240px;
+}
+.sidebar .logo_content .logo {
+  color: #fff;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  font-size: 20px;
+  opacity: 0;
+  pointer-events: none;
+}
+.sidebar.active .logo_content .logo {
+  opacity: 1;
+  pointer-events: none;
+}
+.logo_content.logo i {
+  font-size: 28px;
+  margin-right: 5px;
+}
+.logo_content .logo .logo_name {
+  font-size: 20px;
+  font-weight: 400;
+}
+.sidebar #btn {
+  position: absolute;
+  color: #fff;
+  left: 50%;
+  top: 6px;
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+.sidebar.active #btn {
+  left: 90%;
+}
+
+.sidebar ul {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.sidebar ul li,
+.back-home {
+  position: relative;
+  margin: 20px 0px;
+  height: 50px;
+  width: 100%;
+  list-style: none;
+}
+
+.sidebar ul li a,
+.back-home h6 {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  white-space: nowrap;
+  border-radius: 10px;
+}
+.sidebar ul li a:hover,
+.back-home h6:hover {
+  background: #fff;
+  color: #054d56;
+}
+.sidebar ul li i,
+.back-home h6 i {
+  height: 50px;
+  margin: 0px 20px 0px 10px;
+  border-radius: 12px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+.sidebar .link_names {
+  opacity: 0;
+  pointer-events: none;
+}
+.sidebar.active .link_names {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.sidebar .profile_content {
+  position: absolute;
+  color: #fff;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.sidebar .profile_content .profile {
+  position: relative;
+  padding: 10px 6px;
+  height: 60px;
+  background: #054d56;
+}
+.profile_content .profile .profile_details {
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.sidebar.active .profile .profile_details {
+  opacity: 1;
+  pointer-events: auto;
+}
+.profile .profile_details img,
+.profile .profile_details h5 {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 12px;
+  font-size: 1.3rem;
+}
+.profile .profile_details .name_job {
+  margin-left: 10px;
+}
+.profile .profile_details .name {
+  font-size: 15px;
+  font-weight: 400;
+}
+.profile .profile_details .job {
+  font-size: 12px;
+}
+.profile #log_out {
+  position: absolute;
+  left: 50%;
+  bottom: 5px;
+  transform: translateX(-50%);
+  min-width: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+}
+.profile #log_out:hover {
+  background: #fff;
+  color: #11101d;
+}
+.sidebar.active .profile #log_out {
+  left: 88%;
+}
+.home_content {
+  position: absolute;
+  left: 60px;
+  width: calc(100%-60px);
+}
+.sidebar.active ~ .home_content {
+  left: 240px;
+  width: calc(100% - 240px);
+}
+.home_content .text {
+  font-size: 25px;
+  font-weight: 500;
+  color: #1d1b31;
+  margin: 12px;
+}
+
+/* =================== */
+/* Table Design Area */
+/* =================== */
+table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  border: 1px solid #054d56;
+}
+
+table tr {
+  padding: 0.35em;
+}
+
+table th,
+table td {
+  padding: 0.625em;
+  text-align: center;
+  background-color: #cff4fc;
+  border: 1px solid #054d56;
+}
+
+table th {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background-color: #1b7a8f;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625em;
+  }
+
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+  }
+
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+/* Dashboard Home */
+.dashboard-home-info-card {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 1rem 1rem;
+}
+
+.dashboard-home-info-card h4 {
+  font-size: 3.5rem;
+  margin-right: 1rem;
+}
