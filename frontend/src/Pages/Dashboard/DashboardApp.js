@@ -80,7 +80,13 @@ const DashboardApp = () => {
           </ul>
 
           <div className="back-home">
-            <h6 onClick={() => navigate(`/home`)} style={{ cursor: "pointer" }}>
+            <h6
+              onClick={() => {
+                navigate(`/`);
+                window.scrollTo(0, 0);
+              }}
+              style={{ cursor: "pointer" }}
+            >
               <i className="fa-solid fa-house"></i>{" "}
               <span className="link_names"> Back Home</span>
             </h6>

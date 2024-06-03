@@ -30,6 +30,7 @@ import AdminRoute from "./AdminRoute/AdminRoute";
 import Order from "./Pages/Order/Order";
 import DashboardDoctors from "./Pages/Dashboard/DashboardChildCompnent/DashboardDoctors";
 import DashboardContactUs from "./Pages/Dashboard/DashboardChildCompnent/DashboardContactUs";
+import Error404 from "./Pages/Error404/Error404";
 
 const options = {
   position: positions.TOP_RIGHT,
@@ -146,6 +147,7 @@ function App() {
             }
           />
         </Route>
+        <Route exact path="*" element={<Error404 />} />
       </Routes>
       {!excludedRoutes.includes(location.pathname) && <Footer />}
     </AlertProvider>

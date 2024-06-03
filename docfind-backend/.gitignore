@@ -3,4 +3,5 @@
 
 # misc
 .env
+.vercel
 docfind-67618-firebase-adminsdk.json
