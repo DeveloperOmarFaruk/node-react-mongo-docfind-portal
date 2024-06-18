@@ -47,6 +47,12 @@ Appointment details can be seen on the admin dashboard and the admin can update 
 #
 1. Netlify (Frontend Part)
 2. Vercel (Backend Part)
+
+#
+### `Admin Login`
+#
+1. Email: admin@admin.com
+2. Password: 123456
     
 
 #
