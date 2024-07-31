@@ -10,6 +10,7 @@ const DashboardUser = () => {
         <div
           style={{
             display: "flex",
+
             justifyContent: "space-between",
             alignItems: "center",
             justifyItems: "center",

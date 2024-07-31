@@ -167,7 +167,7 @@ const AvailableApoinment = ({ date }) => {
                     className="form-control"
                     id="floatingInput"
                     placeholder="Date"
-                    value={new Date(customDate).toISOString().slice(0, 10)}
+                    value={new Date(date).toISOString().slice(0, 10)}
                     ref={apoiDateRef}
                     disabled
                   />

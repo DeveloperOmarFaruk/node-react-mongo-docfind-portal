@@ -6,7 +6,10 @@ import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 import "./Order.css";
 
-const stripePromise = loadStripe(`${process.env.REACT_STRIPE_KEY}`);
+// const stripePromise = loadStripe(`${process.env.REACT_STRIPE_KEY}`);
+const stripePromise = loadStripe(
+  `pk_test_51K5xe9SGjJnXEIin9sLbuspw5SgIx1wET91gjV7CSRBLskz7hf0HKHRyOuQtzaPUsHZtPURBtP1fZJtRk84Wi6YO00lnxLd29O`
+);
 
 const Order = () => {
   const { URL, appoinment, setAppoinment, alert, navigate } = useFunction();
@@ -191,7 +194,7 @@ const Order = () => {
                 }}
               >
                 <small>
-                  For Testing: 4242 4242 4242 4242 &nbsp;&nbsp;12/34/567/10005
+                  For Testing: 4000 0035 6000 0008 &nbsp;&nbsp;12/34/567
                 </small>
               </div>
 

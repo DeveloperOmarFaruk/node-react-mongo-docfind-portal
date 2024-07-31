@@ -69,7 +69,9 @@ const useFunction = () => {
 
   const URL = `${process.env.REACT_APP_URL}`;
 
-  const ImageHostURL = `${process.env.REACT_IMAGE_HOSTING_URL}?key=${process.env.REACT_IMAGE_HOSTING_KEY}`;
+  const ImageHostURL = `https://api.imgbb.com/1/upload?key=1db3e35ca5bbef41ac6c77ae2e5f4469`;
+
+  // const ImageHostURL = `${process.env.REACT_IMAGE_HOSTING_URL}?key=${process.env.REACT_IMAGE_HOSTING_KEY}`;
 
   // ===================================
   // Dashboard Doctor Add Functionality

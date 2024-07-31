@@ -19,10 +19,6 @@ const DashboardApp = () => {
         <div className={`sidebar ${isOpen == true ? "active" : ""}`}>
           <div className="logo_content">
             <div className="logo">
-              <i
-                className="bx bxl-c-plus-plus"
-                style={{ fontSize: "30px" }}
-              ></i>
               <div className="logoname" style={{ margin: "5px" }}>
                 <img
                   src={BrandLogo}

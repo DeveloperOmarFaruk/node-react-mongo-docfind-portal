@@ -258,18 +258,18 @@ async function run() {
     //   res.send(result);
     // });
 
-    // ==========================
-    // Users POST API Method
-    // ==========================
+    // ===============================
+    // Users POST API Method for Form
+    // ===============================
     app.post("/users", async (req, res) => {
       const addUsers = req.body;
       const result = await usersCollection.insertOne(addUsers);
       res.json(result);
     });
 
-    // ==========================
-    // Users PUT API Method
-    // ==========================
+    // ================================
+    // Users PUT API Method for Google
+    // ================================
     app.put("/users", async (req, res) => {
       const user = req.body;
       const filter = { email: user.email };
